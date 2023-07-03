@@ -19,18 +19,29 @@ public class TriangleUtilities {
     }
 
     public static String getSmallTriangle() {
+        /*
         StringBuilder output = new StringBuilder("");
         for(int i = 1; i < 5; i++){
             output.append(getRow(i) + "\n");
         }
         return output.toString();
+
+         */
+        return getTriangle(5);
     }
 
     public static String getLargeTriangle() {
+        /*
         StringBuilder output = new StringBuilder("");
         for(int i = 1; i < 10; i++){
             output.append(getRow(i) + "\n");
         }
         return output.toString();
+
+         */
+        return getTriangle(10);
     }
+
+
+
 }
